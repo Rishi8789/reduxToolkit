@@ -1,0 +1,74 @@
+/* todoStyles.css */
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 90vh;
+  }
+  
+  /* Todo container */
+  .todo-container {
+    width: 400px; /* Adjust as needed */
+  }
+  
+  /* Input container */
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input[type="text"] {
+    width: calc(100% - 80px); /* Adjust width of input */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Todo list */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Todo item */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item span {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
